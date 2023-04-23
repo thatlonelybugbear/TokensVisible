@@ -1,17 +1,30 @@
 {
-  "name": "TokensVisible",
+  "id": "TokensVisible",
   "title": "Your Tokens Visible",
   "description": "Usability and vision enhancements for Tokens",
-  "author": "David Zvekic",
-  "version": "3.1.1",
-  "compatibleCoreVersion": "9.280",
-  "minimumCoreVersion": "0.7.9",
-  "url":"https://github.com/David-Zvekic/TokensVisible",
-  "manifest": "https://github.com/David-Zvekic/TokensVisible/releases/download/v3.1.1/module.json",
-  "download": "https://github.com/David-Zvekic/TokensVisible/releases/download/v3.1.1/TokensVisible.zip",
+  "authors": [{"name":"David Zvekic"}],
+  "version": "4.0.0",
+  "compatibility": {
+      "minimum": "10",
+      "maximum": "10",
+      "verified": "10.291"
+  },
+  "relationships": {
+      "systems": [
+          {
+              "id": "dnd5e",
+              "type": "system",
+              "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+              "compatibility": {}
+          }
+      ] 
+  },
+  "url": "https://github.com/thatlonelybugbear/TokensVisible",
+  "manifest": "https://github.com/thatlonelybugbear/TokensVisible/download/module.json",
+  "download": "https://github.com/thatlonelybugbear/TokensVisible/releases/download/v4.0.0/module.zip",
   "esmodules": [
   		"./lib/colorsettings/colorSetting.js", "TokensVisible.js" 
-  	],
+  ],
   "styles": [ "./lib/colorsettings/css/colorpicker.css" ],
   "languages": [
     {
